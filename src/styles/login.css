@@ -1,0 +1,46 @@
+.loginn{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onee{
+    height: 53%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 14px;
+}
+
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.Form input{
+    cursor: auto;
+}
+.Form button{
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: black;
+    align-self: flex-end;
+}
+
+.signup::before{
+    content: "New User?";
+    cursor: auto;
+}

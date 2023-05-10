@@ -1,0 +1,4 @@
+.beforeLogin::before{
+    content: "Already Signed Up?";
+    cursor: auto;
+}
